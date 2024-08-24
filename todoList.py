@@ -25,7 +25,7 @@ while True:
                 row = f"{index}-{item}" # Fstring. Instead of - can use anything like .(dot) or ,(comma)
                 print(row)
         case 'edit':
-            number = int(input("Number of the todo to edit: ")) # This number is in the list of todo
+            number = int(input("Number of the todo to edit: ")) # This number is in the list of to do
             number = number - 1 # User List start from 1
             # After user choose what they want to edit
 
